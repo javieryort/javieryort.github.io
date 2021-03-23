@@ -1,0 +1,151 @@
+		h1 {
+			text-align:center;
+			font-family: 'Merriweather', serif;
+			color:#FFDF00;
+			letter-spacing: 1px;
+			text-transform:uppercase;
+			text-shadow: 5px 5px 10px black;
+		}
+		
+		body {
+			background: #000000;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		}
+		
+		h2 {
+			text-align: center;
+			font-family: 'Merriweather', serif;
+			font-weight: 700px;
+			font-style: oblique;
+			color: #FFDF00;
+			letter-spacing: 2.5px;
+			text-transform:uppercase;
+			text-shadow: 5px 5px 10px black;
+		}
+
+		h3 {
+			text-align: center;
+		}
+		
+		hr {
+			width: 75%;
+			height: 2px;
+			background-color: white;
+		}
+		
+		div {
+			text-align:justify;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-size: 1.25em;
+			color: white;
+		}
+		
+		a {
+			text-decoration: none;
+			font-family: 'Merriweather', serif;
+			font-weight:bold;
+			font-style:oblique;
+			font-size: 1.25em;
+			color:#E69A8AFF;
+			text-shadow: 5px 5px 10px black;
+		}
+		
+		.profile {
+			width: 190px;
+			margin-top: 40px;
+			border-radius: 20px;
+			position: absolute;
+			left: 580px;
+			top: 25px;
+		}
+
+		.childhood1 {
+			width: 150px;
+			border-radius: 50%;
+			border-style: solid;
+			border-color: black;
+			position: absolute;
+			margin-top: 55px;
+			margin-left: 15px;
+		}
+
+		.childhood2 {
+			width: 150px;
+			border-radius: 50%;
+			border-style: solid;
+			border-color: black;
+			position: absolute;
+			margin-top: 245px;
+			margin-left: 15px;
+		}
+
+		.childhood3 {
+			width: 150px;
+			border-radius: 50%;
+			border-style: solid;
+			border-color: black;
+			position: absolute;
+			margin-top: 455px;
+			margin-left: 15px;
+		}
+
+		.teenage1 {
+			width: 150px;
+			border-radius: 50%;
+			border-style: solid;
+			border-color: black;
+			position: absolute;
+			margin-top: 660px;
+			margin-left: 15px;
+		}
+
+		.teenage2 {
+			width: 150px;
+			border-radius: 50%;
+			border-style: solid;
+			border-color: black;
+			position: absolute;
+			margin-top: 840px;
+			margin-left: 15px;
+		}
+
+		.teenage3 {
+			width: 150px;
+			border-radius: 50%;
+			border-style: solid;
+			border-color: black;
+			position: absolute;
+			margin-top: 1035px;
+			margin-left: 15px;
+		}
+
+		.college1 {
+			width: 120px;
+			border-radius: 50%;
+			border-style: solid;
+			border-color: black;
+			position: absolute;
+			margin-top: 1200px;
+			margin-left: 30px;
+		}
+
+		.college2 {
+			width: 150px;
+			border-radius: 50%;
+			border-style: solid;
+			border-color: black;
+			position: absolute;
+			margin-top: 1400px;
+			margin-left: 15px;
+		}
+
+		.college3 {
+			width: 150px;
+			border-radius: 50%;
+			border-style: solid;
+			border-color: black;
+			position: absolute;
+			margin-top: 1560px;
+			margin-left: 15px;
+		}

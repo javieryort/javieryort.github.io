@@ -1,0 +1,253 @@
+	h1 {
+		text-align: center;
+		font-family: 'Cinzel', serif;
+		font-size:40px;
+		color:white;
+	}
+
+	h2 {
+		text-align: center;
+		font-family: 'Cinzel', serif;
+		font-size: 32px;
+		color: #FFDF00;
+	}
+
+	hr {
+		width: 900px;
+	}
+
+	body {
+		background: #000000;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+
+	p {
+		text-align: center;
+		color: white;
+		font-family: 'Noto Sans JP', sans-serif;
+		margin-left: 350px;
+    	margin-right: 350px;
+	}
+
+	img {
+		witdh: 200px;
+		height: 150px;
+		position: absolute;
+	}
+
+	img:nth-of-type(1) {
+		margin-left: 350px;
+		margin-top: 30px;
+		border-radius: 30px;
+		border-style: solid;
+		border-width: 3px;
+	}
+
+	img:nth-of-type(2) {
+		margin-left: 895px;
+		margin-top: 25px;
+		border-radius: 30px;
+		border-style: solid;
+		border-width: 3px;
+	}
+
+	img:nth-of-type(3) {
+		margin-left: 1315px;
+		margin-top: 25px;
+		border-radius: 30px;
+		border-style: solid;
+		border-width: 3px;
+	}
+
+	img:nth-of-type(4) {
+		margin-left: 350px;
+		margin-top: 30px;
+		border-radius: 30px;
+		border-style: solid;
+		border-width: 3px;
+	}
+
+	img:nth-of-type(5) {
+		margin-left: 915px;
+		margin-top: 30px;
+		border-radius: 30px;
+		border-style: solid;
+		border-width: 3px;
+	}
+
+	img:nth-of-type(6) {
+		margin-left: 1315px;
+		margin-top: 25px;
+		border-radius: 30px;
+		border-style: solid;
+		border-width: 3px;
+	}
+
+	img:nth-of-type(7) {
+		margin-left: 350px;
+		margin-top: 30px;
+		border-radius: 30px;
+		border-style: solid;
+		border-width: 3px;
+	}
+
+	img:nth-of-type(8) {
+		margin-left: 880px;
+		margin-top: 30px;
+		border-radius: 30px;
+		border-style: solid;
+		border-width: 3px;
+	}
+
+	img:nth-of-type(9) {
+		margin-left: 1295px;
+		margin-top: 25px;
+		border-radius: 30px;
+		border-style: solid;
+		border-width: 3px;
+	}
+
+	.label_one {
+		margin-left: 400px;
+		margin-top: 195px;
+		position: absolute;
+		color: #FFDF00;
+		font-size: 20px;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	.OPM_one {
+		margin-left: 335px;
+		margin-top: 235px;
+		position: absolute;
+	}
+
+	.label_two {
+		margin-left: 845px;
+		margin-top: 195px;
+		position: absolute;
+		color: #FFDF00;
+		font-size: 20px;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	.OPM_two {
+		margin-left: 810px;
+		margin-top: 235px;
+		position: absolute;
+	}
+
+	.label_three {
+		margin-left: 1200px;
+		margin-top: 195px;
+		position: absolute;
+		color: #FFDF00;
+		font-size: 20px;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	.OPM_three {
+		margin-left: 1245px;
+		margin-top: 265px;
+		position: absolute;
+	}
+
+	.label_four {
+		margin-left: 320px;
+		margin-top: 195px;
+		position: absolute;
+		color: #FFDF00;
+		font-size: 20px;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	.RnB_one {
+		margin-left: 310px;
+		margin-top: 235px;
+		position: absolute;
+	}
+
+	.label_five {
+		margin-left: 845px;
+		margin-top: 195px;
+		position: absolute;
+		color: #FFDF00;
+		font-size: 20px;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	.RnB_two {
+		margin-left: 815px;
+		margin-top: 235px;
+		position: absolute;
+	}
+
+	.label_six {
+		margin-left: 1330px;
+		margin-top: 195px;
+		position: absolute;
+		color: #FFDF00;
+		font-size: 20px;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	.RnB_three {
+		margin-left: 1265px;
+		margin-top: 235px;
+		position: absolute;
+	}
+
+	.label_seven {
+		margin-left: 340px;
+		margin-top: 195px;
+		position: absolute;
+		color: #FFDF00;
+		font-size: 20px;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	.Anime_one {
+		margin-left: 315px;
+		margin-top: 235px;
+		position: absolute;
+	}
+
+	.label_eight {
+		margin-left: 815px;
+		margin-top: 195px;
+		position: absolute;
+		color: #FFDF00;
+		font-size: 20px;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	.Anime_two {
+		margin-left: 805px;
+		margin-top: 235px;
+		position: absolute;
+	}
+
+	.label_nine {
+		margin-left: 1330px;
+		margin-top: 195px;
+		position: absolute;
+		color: #FFDF00;
+		font-size: 20px;
+		font-style: italic;
+		font-weight: bold;
+	}
+
+	.Anime_three {
+		margin-left: 1295px;
+		margin-top: 260px;
+		position: absolute;
+	}

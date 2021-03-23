@@ -1,0 +1,54 @@
+		pre {
+			font-size: 26px;
+			font-family: 'Heebo', sans-serif;
+		}
+
+		a {
+			text-decoration: none;
+			font-weight:bold;
+			font-style:oblique;
+			font-family: 'Heebo', sans-serif;
+			color: #FFDF00;
+		}
+
+		a:hover {
+ 			background-color: #555;
+ 			border: none;
+ 			opacity: 0.6;
+
+		}
+
+		a:active {
+ 			background-color: black;
+		}
+
+
+		h1 {
+			text-align: center;
+			color: white;
+			font-family: 'Heebo', sans-serif;
+			font-size: 48px;
+		}
+
+		h2 {
+			text-align: center;
+			color: #FFDF00;
+			font-family: 'Montserrat Alternates', sans-serif;
+			font-weight: 5px;
+		}
+	
+		.profile {
+			width: 150px;
+			height: 150px;
+			margin-left: 871px;
+			margin-top: 180px;
+			border-radius: 50%;
+			border-style: groove;
+			border-color: black;
+		}
+
+		body {
+			background-image: url("background3.jpg");
+			background-repeat: no-repeat;
+  			background-size: 1920px 1080px;
+ 		}

@@ -1,0 +1,143 @@
+		h1 {
+			text-transform: uppercase;
+			font-family: 'Merriweather', serif;
+			position: absolute;
+			top: 80px;
+			left: 880px;
+			color: #FFDF00;
+			
+		}
+		
+		h2 {
+			text-transform: uppercase;
+			font-family: 'Noto Serif JP', serif;
+			position: absolute;
+			top: 47px;
+			left: 920px;
+			color: white;
+		}
+		
+		h3 {
+			font-family: 'Merriweather', serif;
+			color: #FFDF00;
+		}
+		
+		
+		h4 {
+			font-family: 'Noto Serif JP', serif;
+			position: absolute;
+			top: 125px;
+			left: 800px;
+			color: white;
+		}
+		
+		.profilepic {
+			width: 150px;
+			height: 150px;
+			background-color: #fff;
+			border-radius: 50%;
+			margin-left: 120px;
+			margin-top: 17px;
+			background-image: url("Javier.jpg");
+			background-size: 150px 150px;
+			background-position: center;
+			position:absolute
+		}
+		
+		img {
+			width: 190px;
+			border-radius: 50%;
+			left: 580px;
+			top: 7px;
+			border: 5px solid #555;
+		}
+		
+		img:nth-of-type(1) {
+			width: 80px;
+			margin-left: 10px;
+		}
+		
+		img:nth-of-type(2) {
+			width: 80px;
+			margin-left: 50px;
+		}
+		
+		img:nth-of-type(3) {
+			width: 80px;
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+		
+		img:nth-of-type(4) {
+			width: 80px;
+			margin-left: 50px;
+		}
+		
+		hr {
+			width:10%;
+			position:absolute;
+			top: 205px;
+			left: 950px
+		}
+		
+		p {
+			text-align: justify;
+			font-family: 'Heebo', sans-serif;
+			color: white;
+		}
+		
+		.resume {
+		  margin: 0 auto;
+		  max-width: 850px;
+		  min-width: 700px;
+		  padding: 25px;
+		  overflow: hidden;
+		}
+		
+		.content {
+			display: flex;
+		}
+			
+		.left,.right{
+		  padding: 15px;
+		}
+		
+		.left {
+		  flex: 9;
+		  padding-top: 220px;
+		  padding-right: 30px;
+		  padding-left: 160px;
+		}
+		
+		.right {
+		  flex: 9;
+		  padding-top: 220px;
+		  padding-right: 30px;
+		  padding-left: 70px;
+		}
+		
+		ul {
+			list-style-type: disc;
+		}
+		
+		ul>li {
+			text-align: justify;
+			font-family: 'Heebo', sans-serif;
+			color: white;
+		}
+		
+		ol {
+			list-style-type: decimal;
+		}
+		
+		ol>li {
+			text-align: justify;
+			font-family: 'Heebo', sans-serif;
+			color: white;
+		}
+		
+		body {
+			background: #000000;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		}

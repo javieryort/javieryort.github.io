@@ -1,0 +1,72 @@
+	h1 {
+		text-align: center;
+		color: white;
+		font-family: 'Cinzel', serif;
+		font-size: 48px;
+	}
+
+	h2 {
+		text-align: center;
+		color: #FFDF00;
+		font-family: 'Cinzel', serif;
+		font-style: italic;
+		font-size: 36px;
+	}
+
+	a {
+		text-decoration: none;
+		font-size: 26px;
+		font-weight:bold;
+		font-family: 'Heebo', sans-serif;
+		color: #DCAE96;
+		letter-spacing: 5px;
+	}
+
+	a:hover {
+ 		background-color: #555;
+ 		border: none;
+ 		opacity: 0.6;
+	}
+
+	a:active {
+ 		background-color: black;
+	}
+
+
+	body {
+		background: #000000;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+
+	hr {
+		width: 1000px;
+	}
+
+	img {
+		witdh: 250px;
+		height: 250px;
+		border-radius: 30px;
+		border-style: inset;
+		border-width: 5px;
+		border-color: #DCAE96;
+	}
+
+	img:hover {
+		opacity: 0.85;
+		box-shadow: 15px 15px 55px 5px #DCAE96;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	.zoom {
+		transition: transform .2s;
+	}
+
+	.zoom:hover {
+		-ms-transform: scale(1.25); /* IE 9 */
+  		-webkit-transform: scale(1.25); /* Safari 3-8 */
+  		transform: scale(1.25);
+	}

@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html  lang="en">
+<head>
+	<base target="newTab">
+    <meta charset="utf-8" >
+    <title>MY 7 WONDERS</title>
+
+    <script language="JavaScript">
+        function writeText(txt){
+            document.getElementById("desc").innerHTML=txt;
+        }
+
+        function dissolveText(txt) {
+            document.getElementById("desc").innerHTML=txt;
+        }
+    </script>
+
+    <style type="text/css">
+    	h1 {
+    		text-align: center;
+    		margin-bottom: -35px;
+    		font-family: 'Merriweather', serif;;
+    		color: #DCAE96;
+    	}
+
+    	img {
+    		margin-top: 50px;
+			box-shadow: 15px 15px 55px 3px #DCAE96;
+    	}
+
+    	p#desc {
+    		text-align: center;
+    		font-family: 'Noto Serif JP', serif;
+    		font-size: 16px;
+    		color: white;
+    	}
+
+    	body {
+    		background: #000000;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    	}
+    </style>
+
+    <!--MERRIWEATHER FONT-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+
+	<!--NOTO SERIF JP FONT-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&family=Righteous&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<link rel="stylesheet" type="text/css">
+    <!--JAVIER, LEENARD TROY-->
+    <!--04.01.2021-->
+
+    <h1> Welcome to My 7 Natural Wonders! </h1>
+
+    <div align="center">
+    	<img src="IMAGES/Collage.png" alt="Beautiful Places Collage" usemap="#collage">
+    	<map name="collage">
+
+    		<!--HOME-->
+    		<area shape="rect" coords="482,757,520,794" href="../JAVIER_LANDINGPAGE_ITAD.html" 
+    		onMouseOver="writeText('Home');"
+    		onMouseOut="dissolveText('');"/>
+
+    		<!--The Nautilus Beach & Ocean Houses, Maldives (CIRCLE)-->
+    		<area shape="circle" coords="500,401,218" href="JAVIER_MALDIVES_ITAD.html" 
+    		onMouseOver="writeText('The Nautilus Beach & Ocean Houses, Maldives');"
+    		onMouseOut="dissolveText('');"/>
+
+    		<!--Lauterbrunnen, Switzerland (LEFT-POLY)-->
+    		<area shape="poly" coords="493,177,493,50,492,48,56,48,56,49,56,748,56,749,494,749" href="JAVIER_SWITZERLAND_ITAD.html"
+    		onMouseOver="writeText('Lauterbrunnen, Switzerland');"
+    		onMouseOut="dissolveText('');"/>
+
+    		<!--Batanes, Philippines (LOWER-RIGHT-POLY)-->
+    		<area shape="poly" coords="720,405,944,405,945,405,945,748,945,749,507,750,507,747,506,618,533,616,568,605,596,596,624,581,654,556,680,525,693,503,703,485,710,463,717,437,719,414" href="JAVIER_BATANES_ITAD.html"
+    		onMouseOver="writeText('Batanes, Philippines');"
+    		onMouseOut="dissolveText('');"/>
+
+    		<!--Coron, Palawan (HEX-POLY-ONE)-->
+    		<area shape="poly" coords="813,145,783,90,717,89,685,146,718,200,783,199" href="JAVIER_CORON_ITAD.html"
+    		onMouseOver="writeText('Coron, Palawan');"
+    		onMouseOut="dissolveText('');"/>
+
+    		<!--San Vicente, Palawan (HEX-POLY-TWO)-->
+    		<area shape="poly" coords="815,146,879,147,912,195,878,259,815,258,781,206" href="JAVIER_SANVICENTE_ITAD.html"
+    		onMouseOver="writeText('San Vicente, Palawan');"
+    		onMouseOut="dissolveText('');"/>
+
+    		<!--Puerto Princesa, Palawan (HEX-POLY-THREE)-->
+    		<area shape="poly" coords="717,203,686,257,717,313,780,312,812,258,778,203" href="JAVIER_PUERTOPRINCESA_ITAD.html"
+    		onMouseOver="writeText('Puerto Princesa, Palawan');"
+    		onMouseOut="dissolveText('');"/>
+
+    		<!--El Nido, Palawan (HEX-POLY-FOUR)-->
+    		<area shape="poly" coords="813,260,781,315,812,370,877,371,908,316,879,261" href="JAVIER_ELNIDO_ITAD.html"
+    		onMouseOver="writeText('El Nido, Palawan');"
+    		onMouseOut="dissolveText('');"/>
+
+    	</map>
+	</div>
+
+	<p id="desc"></p>  
+</body>
+</html>
